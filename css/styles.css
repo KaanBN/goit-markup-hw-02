@@ -123,7 +123,7 @@ nav ul li {
 
 /* Portfolio Section */
 .portfolio-section {
-    background-color: #FFFFFF;
+    background-color: #f4f4fd;
     padding: 40px 0;
 }
 
@@ -139,17 +139,23 @@ nav ul li {
 .portfolio-list {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .portfolio-item {
     background-color: #FFFFFF;
-    margin: 20px 0;
     padding: 20px;
     border-radius: 8px;
+    text-align: center;
+    width: 360px;
 }
 
 .portfolio-item img {
     width: 360px;
+    height: auto;
 }
 
 .portfolio-item h3 {
@@ -158,6 +164,7 @@ nav ul li {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-top: 10px;
 }
 
 .portfolio-item p {
@@ -165,4 +172,5 @@ nav ul li {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 5px;
 }
