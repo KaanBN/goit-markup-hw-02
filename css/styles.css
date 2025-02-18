@@ -96,7 +96,7 @@ nav ul li {
 }
 
 /* H1 Stili */
-.h1-class {
+.h1-class.title-section {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -105,7 +105,7 @@ nav ul li {
 }
 
 /* Button Stili */
-.button-class {
+.button-class.action-button {
     background-color: #4D5AE5;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -116,7 +116,7 @@ nav ul li {
     cursor: pointer;
 }
 
-.button-class:hover,
-.button-class:focus {
+.button-class.action-button:hover,
+.button-class.action-button:focus {
     background-color: #404BBF;
 }
