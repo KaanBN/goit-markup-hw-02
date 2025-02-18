@@ -1,3 +1,4 @@
+/* Body Genel Stilleri */
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -5,11 +6,30 @@ body {
     text-align: center;
 }
 
+/* Header */
 header {
     margin: 10px auto;
     text-align: center;
 }
 
+/* Logo */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+/* Logo İçindeki <span> */
+.logo-studio {
+    color: #2e2f42;
+}
+
+/* Navigation */
 nav {
     text-align: center;
 }
@@ -25,36 +45,47 @@ nav ul li {
     margin: 0 10px;
 }
 
-nav a {
-    text-decoration: none;
-    color: #2E2F42;
+/* Navigation Linkleri */
+.nav-link {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
 }
 
-nav a:hover {
-    color: #404BBF;
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
 }
 
-address {
-    text-align: center;
+/* Address */
+.contact-info {
+    font-style: normal;
 }
 
-address ul {
+.contact-info ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-address ul li {
+.contact-info ul li {
     display: inline-block;
     margin: 0 10px;
 }
 
-address a {
-    text-decoration: none;
+/* Address Linkleri */
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
-address a:hover {
-    color: #404BBF;
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
 }
