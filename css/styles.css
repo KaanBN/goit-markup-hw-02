@@ -2,18 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Genel stiller */
 header {
     display: flex;
     justify-content: space-between;
-    /* Sol ve sağ blokları yaymak için */
     align-items: center;
     padding: 10px 20px;
-    background-color: #f8f9fa;
-    /* Opsiyonel arka plan */
 }
 
-/* Navbar içeriği */
 nav {
     display: flex;
     align-items: center;
@@ -30,8 +25,12 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: #2E2F42;
+    font-weight:500;
+}
+
+nav a:hover {
+    color: #404BBF;
 }
 
 address {
